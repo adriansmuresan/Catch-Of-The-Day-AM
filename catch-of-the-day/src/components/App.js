@@ -9,9 +9,16 @@ class App extends React.Component {
     order: {},
 
   };
-  
+
   addFish = fish => {
-    console.log('AHAAAA');
+    // Take a copy of the existing state
+    const fishes ={ ...this.state.fishes};
+    // Add our new fish to that fishes variable
+    fishes[`fish${Date.now()}`] = fish;
+    // Set the new fishes object to sate
+    this.setState({
+      fishes: fishes // it can be just fishes as per ES6
+    });
   };
 
   render() {
