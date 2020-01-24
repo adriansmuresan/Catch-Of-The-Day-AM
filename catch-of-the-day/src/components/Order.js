@@ -1,6 +1,6 @@
 import React from 'react';
 import { formatPrice } from '../helpers';
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 class Order extends React.Component {
   renderOrder = key => {
@@ -11,14 +11,14 @@ class Order extends React.Component {
     if(!fish) return null;
     if (!isAvailable) {
       return (
-        <CSSTransition className="order" key={key} timeout={{ enter: 250, exit: 250 }}>
+        <CSSTransition classNames="order" key={key} timeout={{ enter: 250, exit: 250 }}>
           <li key={key}>
             Sorry {fish ? fish.name : 'fish'} is no longer available
           </li>
         </CSSTransition>
         )};
     return (
-      <CSSTransition className="order" key={key} timeout={{ enter: 250, exit: 250 }}>
+      <CSSTransition classNames="order" key={key} timeout={{ enter: 250, exit: 250 }}>
         <li key={key}>
           {count} lbs {fish.name}
           {formatPrice(count * fish.price)}
