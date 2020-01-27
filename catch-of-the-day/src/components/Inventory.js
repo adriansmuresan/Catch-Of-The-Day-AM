@@ -2,6 +2,7 @@ import React from 'react';
 import ProtoTypes from 'prop-types';
 import AddFishForm from './AddFishForm';
 import EditFishForm from './EditFishForm';
+import Login from './Login';
 
 class Inventory extends React.Component {
   static propTypes = {
@@ -13,6 +14,8 @@ class Inventory extends React.Component {
   };
 
   render() {
+    return <Login />
+    
     return(
       <div className="inventory">
         <h2>Inventory</h2>
