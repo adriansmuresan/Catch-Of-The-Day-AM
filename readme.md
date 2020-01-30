@@ -1,6 +1,6 @@
 # React project based on Wes Bos course [ReactForBeginners.com](https://ReactForBeginners.com)
 
-- live site deployed on Netlify can be found here [Catch-od-the-Day](https://catch-of-the-day-adriansmuresan.netlify.com/)
+- live site deployed on Netlify can be found here [Catch-of-the-Day](https://catch-of-the-day-adriansmuresan.netlify.com/)
 
 Starter files for the React For Beginners course. Come <a href="https://ReactForBeginners.com/">Learn React</a> with me!
 
