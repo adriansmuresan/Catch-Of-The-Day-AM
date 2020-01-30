@@ -1,6 +1,6 @@
-![](https://wes.io/dgAQ/content)
+# React project based on Wes Bos course [ReactForBeginners.com](https://ReactForBeginners.com)
 
-# React For Beginners — [ReactForBeginners.com](https://ReactForBeginners.com)
+- live site deployed on Netlify can be found here [Catch-od-the-Day](https://catch-of-the-day-adriansmuresan.netlify.com/)
 
 Starter files for the React For Beginners course. Come <a href="https://ReactForBeginners.com/">Learn React</a> with me!
 
@@ -23,7 +23,7 @@ You are welcome to submit Pull Requests but I'd like to keep the code as similar
 
 You are welcome to use this code in your own applications. If you would like to use it for training purposes, please shoot me a message first to make sure it's okay.
 
-# Frequently Asked Questions
+## Frequently Asked Questions
 
 #### :question: I can't see the React tab in my dev tools
 
